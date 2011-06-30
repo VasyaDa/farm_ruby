@@ -1,0 +1,32 @@
+development:
+  adapter: postgresql
+  host: localhost
+  port: 5432
+  username: postgres
+  password: 123
+  database: depot
+  schema_search_path: public
+  encoding: utf8
+  template: template1
+
+test:
+  adapter: postgresql
+  host: localhost
+  port: 5432
+  username: postgres
+  password: 123
+  database: depot
+  schema_search_path: test
+  encoding: utf8
+  template: template1
+
+production:
+  adapter: postgresql
+  host: localhost
+  port: 5432
+  username: postgres
+  password: 123
+  database: depot
+  schema_search_path: production
+  encoding: utf8
+  template: template1

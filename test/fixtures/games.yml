@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  user: MyString
+  field_id: 1
+  plant: MyString
+  growth: 1
+
+two:
+  user: MyString
+  field_id: 1
+  plant: MyString
+  growth: 1
